@@ -1,0 +1,51 @@
+.blue {
+  display: flex;
+}
+.form-container {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  position: relative;
+}
+.form-name {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 8px;
+}
+
+.form-file,
+.form-description {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 8px;
+}
+
+.form-sku,
+.form-price,
+.form-name {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 8px;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.form-submit {
+  display: flex;
+
+  flex-grow: 1;
+
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.page-back {
+  margin-left: 8px;
+  margin-top: 30px;
+}

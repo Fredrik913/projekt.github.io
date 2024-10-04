@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+.yellow {
+  display: flex;
+  width: 100%;
+}
+
+#top-sheet-administration {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 2px;
+  background-color: black;
+}
+#top-sheet-administration span {
+  color: white;
+  padding: 6px;
+  font-size: 2em;
+}
+.side-product {
+  background-color: lightgray;
+  width: 20%;
+  height: 800px;
+  position: relative;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+.side-product span {
+  position: absolute;
+  font-size: 1.2;
+  top: 30px;
+  left: 50%;
+  translate: -50%;
+}
+@media (max-width: 500px) {
+  .side-product {
+    display: none;
+  }
+}

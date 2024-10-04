@@ -1,0 +1,36 @@
+.collection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 8px;
+}
+.product-head-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+#h1-product {
+  margin-right: auto;
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+
+  width: 95%;
+}
+table {
+  background-color: black;
+  width: 100%;
+}
+table tr:first-child {
+  background-color: gray;
+}
+table tr:nth-child(2n + 2) {
+  background-color: lightgray;
+}
+table tr:nth-child(3) {
+  background-color: white;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Svart T-shirt</title>
+    <link rel="stylesheet" href="/Styling css/homepage/page-crossing/accordion-big.css">
+    <link rel="stylesheet" href="/Styling css/homepage/page-crossing/accordion-small.css">
+    <link rel="stylesheet" href="/Styling css/homepage/page-crossing/header.css">
+    <link rel="stylesheet" href="/Styling css/homepage/page-crossing/icon-footer.css">
+    <link rel="stylesheet" href="/Styling css/homepage/poduct-page/hero-product.css">
+    <link rel="stylesheet" href="/Styling css/homepage/poduct-page/product-spot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- -------------------------------------------------------------------------Header--------------------------------------------------------------------------------------->
+    <header>
+      <div class="headerBlock1">
+        <img src="https://placehold.co/600x200" class="logotyp" alt="" />
+        <div class="input-icon-Block">
+          <div class="search">
+            <input type="text" placeholder="Sök produkt" required />
+          </div>
+          <div>
+            <i class="bi bi-heart-fill icon"></i>
+            <i class="bi bi-bag-fill icon"></i>
+          </div>
+        </div>
+      </div>
+      <!--Länkar till bildgalleri ect -->
+      <div class="headerBlock2">
+        <a href="#nyheter">Nyheter</a>
+        <a href="images/freaky_Fashion_logotype.jpg">Topplista</a>
+        <a href="images/freaky_Fashion_logotype.jpg">Rea</a>
+        <a href="images/freaky_Fashion_logotype.jpg">Kampanjer</a>
+      </div>
+    </header>
+    <main>
+      <!-- ------------------------------------------------------------------produkt HeroFlex-------------------------------------------------------------------------------------------------->
+      <div class="productFlex">
+        <div id="productFlex_picture">
+          <img src="https://placehold.co/600x700" alt="" />
+        </div>
+        <div class="produktFlex_text">
+          <span>Svart T-shirt</span>
+          <span>levis</span>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            optio voluptatem consequatur quam fugit necessitatibus deserunt,
+            quae eaque doloribus impedit architecto atque cumque odit libero! In
+            voluptatem accusantium maxime autem.</span>
+            <span> 199 SEK </span>
+            <button type="button" id="button_product">
+              Lägg till i varukorg
+            </button>
+        </div>
+      </div>
+          
+
+      <!-- ------------------------------------------------------------------Produkt-Spot------------------------------------------------------------------------------------------------->
+
+      <section>
+        <h2>Liknande Produkter</h3>
+        <div class="grid-productSpot-container">
+          <article>
+            <a href="http://www.google.se"
+              ><img src="https://placehold.co/400x600" alt=""
+            /></a>
+            <div class="text-productcard">
+              <span class="span1">Svart T-shirt</span>
+              <span>199:-</span>
+            </div>
+            <span class="span3">levis</span>
+          </article>
+          <article>
+            <a href="http://www.google.se"
+              ><img src="https://placehold.co/400x600" alt=""
+            /></a>
+            <div class="text-productcard">
+              <span class="span1">Svart T-shirt</span>
+              <span class="span2">199:-</span>
+            </div>
+            <span class="span3">levis</span>
+          </article>
+          <article>
+            <a href="http://www.google.se"
+              ><img src="https://placehold.co/400x600" alt=""
+            /></a>
+            <div class="text-productcard">
+              <span class="span1">Svart T-shirt</span>
+              <span class="span2">199:-</span>
+            </div>
+            <span class="span3">levis</span>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- ------------------------------------------------------------Icon ---------------------------------------------------------------------------------------------------------------- -->
+      <div class="iconContainer">
+        <div class="icon-Flex">
+          <div class="iconText">
+            <i class="bi bi-globe-americas"></i>
+            <div>Gratis frakt och returer</div>
+          </div>
+          <div class="iconText">
+            <i class="bi bi-airplane"></i>
+            <div>Expressfrakt</div>
+          </div>
+        </div>
+        <div class="icon-Flex">
+          <div class="iconText">
+            <i class="bi bi-shield-shaded"></i>
+            <div>säkra betalningar</div>
+          </div>
+          <div class="iconText">
+            <i class="bi bi-emoji-smile-fill"></i>
+            <div>Nyheter varje dag</div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------Accordion__liten------------------------------------------------------------------------------------------ -->
+      <section>
+        <div class="accordion">
+          <div>
+            <input
+              type="radio"
+              name="Accordion_meny"
+              id="section_shopping"
+              class="accordion__input"
+              checked
+            />
+            <label for="section_shopping" class="accordion__label">
+              Shopping
+            </label>
+            <div class="accordion__content">
+              <ul>
+                <li>
+                  <a href="">Vinterjackor</a>
+                </li>
+                <li>
+                  <a href="">Pufferjackor</a>
+                </li>
+                <li>
+                  <a href="">Kappa</a>
+                </li>
+                <li>
+                  <a href="">Trenchcoats</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="Accordion_meny"
+              id="section_minaSidor"
+              class="accordion__input"
+            />
+            <label for="section_minaSidor" class="accordion__label">
+              Mina Sidor
+            </label>
+            <div class="accordion__content">
+              <ul>
+                <li>
+                  <a href="">Mina Ordrar</a>
+                </li>
+                <li>
+                  <a href="">Mitt Konto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="Accordion_meny"
+              id="section_support"
+              class="accordion__input"
+            />
+            <label for="section_support" class="accordion__label">
+              Kundtjänst
+            </label>
+            <div class="accordion__content">
+              <ul>
+                <li>
+                  <a href=""> Returnpolicy</a>
+                </li>
+                <li>
+                  <a href="">Integritetspolicy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------------------------------------------------------Accordion__stor-------------------------------------------------------------------------------------------------- -->
+       
+      <section class="accordion_flex">
+        <div class="accordion_big">
+          <div>
+            <span class="span-accordion-big">Shopping</span>
+            
+            <ul>
+              <li>
+                <a href="">Vinterjackor</a>
+              </li>
+              <li>
+                <a href="">Pufferjackor</a>
+              </li>
+              <li>
+                <a href="">Kappa</a>
+              </li>
+              <li>
+                <a href="">Trenchcoats</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <span class="span-accordion-big">Mina Sidor</span>
+            <ul>
+              <li>
+                <a href="">Mina Ordrar</a>
+              </li>
+              <li>
+                <a href="">Mitt Konto</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <span class="span-accordion-big">Kundtjänst</span>
+            <ul>
+              <li>
+                <a href=""> Returnpolicy</a>
+              </li>
+              <li>
+                <a href="">Integritetspolicy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span class="span5">
+          &copy;Freaky fashion
+        </span>
+      </section>
+    </footer>
+  </body>
+</html>
+
+
+
+
+              
+
+       
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Administration</title>
+    <link
+      rel="stylesheet"
+      href="/Styling css/Admin/page-crossing-admin.css/sheet-structor.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Styling css/Admin/product-details/add-product.css"
+    />
+  </head>
+  <body>
+    <div id="top-sheet-administration">
+      <span>Administration</span>
+    </div>
+    <div class="blue">
+      <div class="side-product">
+        <span>Produkter</span>
+      </div>
+      <section class="form-container">
+        <h1>Ny produkt</h1>
+        <form>
+          <div class="form-name">
+            <label for="fname">Namn</label>
+            <input type="text" id="fname" placeholder="Produktnamn" />
+          </div>
+          <div class="form-description">
+            <label for="description">Beskrivning</label>
+            <textarea
+              name="Beskrivning"
+              rows="5"
+              cols="100"
+              id="descriotion"
+              placeholder="Produktbeskrivning"
+            >
+            </textarea>
+          </div>
+          <div class="form-file">
+            <label for="picture">Bild</label>
+            <input type="file" id="picture" name="filename" />
+          </div>
+          <div class="form-sku">
+            <label for="sku">SKU</label>
+            <input type="text" id="sku" placeholder="AAA111" />
+          </div>
+          <div class="form-price">
+            <label for="price">Pris</label>
+            <input
+              type="number"
+              name="price"
+              id="price"
+              min="0"
+              max="10000"
+              value="0"
+            />
+          </div>
+          <span class="form-checkbox">Kategorier</span>
+          <div class="form-checkbox">
+            <input type="checkbox" id="t-shirt" />
+            <label for="t-shirt">T-shirt</label>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="summer" />
+            <label for="summer">Sommar</label>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="pants" />
+            <label for="pants">Byxor</label>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="shoe" />
+            <label for="shoe">Skor</label>
+          </div>
+          <div>
+            <input type="submit" value="Lägg till" class="form-submit" />
+          </div>
+        </form>
+        <div class="page-back">
+          <a href="/projekt/admin/products/index.html">Tillbaka</a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
